@@ -26,7 +26,7 @@ public class Main {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        MongoClient client= MongoClients.create("mongodb+srv://varadmarne22:hello123@hell.bqcfu.mongodb.net/?retryWrites=true&w=majority&appName=HELL");
+        //MongoClient client= MongoClients.create("mongodb+srv://varadmarne22:hello123@hell.bqcfu.mongodb.net/?retryWrites=true&w=majority&appName=HELL");
         MongoDatabase db = client.getDatabase("RestaurantManagement");
         MongoCollection col = db.getCollection("hotel");
 
